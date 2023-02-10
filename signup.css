@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box; /* to de allocate the extra space taken by the elements*/
+
+} /*resetting */
+
+body{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif\;
+   
+
+}
+nav{
+    background:none;
+    height: 70px;
+    width:100%; 
+    padding:10 0px;
+
+}
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.1)),url("Jhamak-books.webp"); /*book.jpg should be inside htmlcss folder i.e in same folder */
+    background-size: cover;
+    background-blend-mode: darken;
+    
+    background-repeat: no-repeat;
+   
+}
+.logo{
+    color: aliceblue;
+    font-style: oblique;
+    font-size: 25px;
+    line-height: 50px; /*sets the total height of recommendation */
+    padding:0 20px;
+    font-weight: bold ;
+
+}
+ul{
+    float: right;
+    margin-right: 20px; /* sets the list to 20 pixels right from the right border */
+
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 10px;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    color: aliceblue;
+    font-size: 20px;
+    padding: 5 10px;
+    border-radius: 2px; /* sets list's area with required sharpness */
+}
+
+
+a:hover{
+    background: skyblue;
+    transition: .5s;
+
+}
+
+/* nav img{
+    padding: 0px;
+    margin: 10px;
+} */
+
+/* form{
+    padding: 2px;
+   margin-top: 5;
+   margin-left: 500px;
+    outline: red;
+} */
+input[type=search]{
+    /* padding: 6px 120px;  */
+    /* border-radius: 30px; */
+    /* box-sizing: border-box; */
+    /* border-color:white;
+    outline-color:white;
+    opacity: 0.5; */
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    width: 300px;
+    padding: 08px;
+}
+::placeholder{
+    color: white;
+}
+
+.icon{
+   color:white;
+   
+}
+
+
+.search{
+    padding-right: 08px;
+    border: 02px solid white;
+    width: 350px;
+    border-radius: 10px;
+    margin-right: 250px;
+    padding: 0 0px; 
+    background-color:none;  
+   
+}
+
+li.sign{
+    padding-right: 40px;
+}
+
+
+   
+@media(max-width: 920px){
+    nav{
+        background: blueviolet;
+        height: 35px;
+        width:100%;
+    
+    }
+    
+    .logo{
+        color: aliceblue;
+        font-size: 15px;
+        line-height: 20px; /*sets the total height of recommendation */
+        padding:0 40px;
+        font-weight: bold ;
+    
+    }
+    ul{
+        float: right;
+        margin-right: 10px; /* sets the list to 20 pixels right from the right border */
+    
+    
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 10px;
+        margin: 0 5px;
+      
+    }
+    
+    nav ul li a{
+        color: aliceblue;
+        font-size: 10px;
+        padding:  2 50px;
+        border-radius: 2px; /* sets list's area with required sharpness */
+    }
+    ul{
+        text-align: center;
+     }
+
+ }
+
+ 
+
+
+
+
+
+
+
+
